@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(rgb(255, 162, 162), rgb(255, 181, 239));
+  color: #ccc;
+  font-family: sans-serif;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+img {
+  width: 150px;
+  margin: 20px 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 100px auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  list-style-type: none;
+  padding: 20px;
+  background-color: rgb(93, 86, 86);
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.ustkısım {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ulkeh1 {
+  color: #fff;
+}
+.ulkeh1,
+input {
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px 25px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
